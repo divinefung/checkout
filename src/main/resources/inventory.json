@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 9800.00,
+    "description": "Laptop computer",
+    "quantity": 10
+  },
+  {
+    "id": 2,
+    "name": "Mouse",
+    "price": 128.50,
+    "description": "Optical mouse",
+    "quantity": 50
+  },
+  {
+    "id": 3,
+    "name": "Keyboard",
+    "price": 680.00,
+    "description": "Wireless keyboard",
+    "quantity": 15
+  }
+]
