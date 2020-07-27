@@ -13,7 +13,7 @@
 
 
 #### API Reference
-#####Store Administration API
+**Store Administration API**
 * `GET /store/products`
    * Get a list of inventory available in the store.
    * Sample Response: `[
@@ -73,7 +73,7 @@
       * productId **number** ID of the product to apply bundle deal on
       * giftId **number** ID of the product to be received when bundled product is bought.
 
-#####User API
+**User API**
 
 * `GET /basket/all`
    * Get a list of baskets
