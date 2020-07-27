@@ -106,21 +106,8 @@
 
 #### Examples
 * To create an apple as a new product, and then apply a discount deal on it (assuming the product ID returned is 78) 
-   * `curl -i -X POST \
-        -H "Content-Type:application/json" \
-        -d \
-     '{
-       "name": "Apple",
-       "price": 8.50,
-       "description": "Fresh apple",
-       "quantity": 20
-     }' \
-      'http://localhost:8080/store/product/add'`
-   * `curl -i -X POST \
-        -H "Content-Type:application/x-www-form-urlencoded" \
-        -d \
-     'productId=78&discount=0.5' \
-      'http://localhost:8080/store/discounts/add'`
+   * `curl -i -X POST -H "Content-Type:application/json" -d "{""name"": ""Apple"", ""price"": 8.50, ""description"": ""Fresh apple"", ""quantity"": 20}" "http://localhost:8080/store/product/add"`
+   * `curl -i -X POST -H "Content-Type:application/x-www-form-urlencoded" -d "productId=78&discount=0.5" "http://localhost:8080/store/discounts/add"`
 
 
 #### Support
